@@ -1,0 +1,24 @@
+/* Custom styles for the Ant Design table header */
+.ant-table-cell{
+    /* background: white !important; */
+    font-size: 14px;
+}
+.ant-pagination-item ,.ant-pagination-item-link {
+    border: 1px solid #E8E8E8 !important;
+}
+
+.ant-pagination-item-active{
+    border: 1px solid #0866FF !important;
+}
+
+/* Custom styles for the Ant Design table header */
+.ant-table-thead > tr > th {
+    background-color: #01579B !important; /* Remove the quotes around the color value */
+    color: white !important; /* Optional: change the text color to white for better contrast */
+    border: 'none' !important; /* Optional: remove the border */
+}
+
+/* Optional: Add any other custom styles you want */
+.custom-table .ant-table-thead > tr > th:hover {
+    background-color: darkblue !important; /* Optional: change the header color on hover */
+}
